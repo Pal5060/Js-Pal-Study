@@ -32,3 +32,14 @@ const myFunction = function() {
 }
 
 console.log(typeof bigNumber); 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive) vs Heap (non-primitive)
+
+let myName = "Prajapati Pal"
+
+let anotherName = myName; 
+
+console.log(myName);
