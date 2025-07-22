@@ -40,6 +40,22 @@ console.log(typeof bigNumber);
 
 let myName = "Prajapati Pal"
 
-let anotherName = myName; 
+let anotherName = myName;
+anotherName = "Prajapati Pal 2"
 
 console.log(myName);
+
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+ 
+userTwo.email = "Pal@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
