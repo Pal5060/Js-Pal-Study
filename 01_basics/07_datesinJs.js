@@ -20,4 +20,10 @@ let myTimestamp = Date.now();
 
 // console.log(myTimestamp); 
 // console.log(myCreatedDate.getTime()); 
+// console.log(math.floor(myTimestamp / 1000)); 
 console.log(Date.now);
+
+let newDate = new Date()
+console.log(newDate.getMonth);
+
+newDate.toLocalString ('default',{weekday: "long"})
