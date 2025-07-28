@@ -49,8 +49,38 @@ const users = [
 ]   
 
 users[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("id"));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty("id"));
+
+
+// de structuring
+
+const course ={
+    coursename: "JavaScript Basics",
+    duration: "3 months",
+    instructor: {
+        name: "Jane Smith",
+        experience: "5 years",
+    },
+}
+
+const {duration: DC} = course;
+// console.log(duration); 
+console.log(DC);
+
+
+// const navbar = ({company}) => {
+
+// {} that for destructuring
+// }
+// navbar(company = "Google")
+
+// {
+//     "name" : "John",
+//     "coursename": "JavaScript Basics",
+//     "price" : 1000,
+// }
