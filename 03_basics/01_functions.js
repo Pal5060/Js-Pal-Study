@@ -22,15 +22,22 @@ const result = addTwoNumbers(5, 10)
 // console.log("Result:", result);
 
 
-function loginUserMessage (username = "Guest") 
-{
-    if (! username  ){
-        console.log("Please provide a username");
-        return 
-    }
-    return`${username} logged in successfully`
-}
+// function loginUserMessage (username = "Guest") 
+// {
+//     if (! username  ){
+//         console.log("Please provide a username");
+//         return 
+//     }
+//     return`${username} logged in successfully`
+// }
 
 // console.log(loginUserMessage("pal"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+
+function claculateCreatePrice (num1){
+    return num1
+}
+
+console.log(claculateCreatePrice(2));
 
